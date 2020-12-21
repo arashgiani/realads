@@ -29,7 +29,7 @@ p {
 }
 
 .navbar-light .navbar-toggler {
-    border-color: transparent;
+    border-color: none;
 }
 
 .header {
