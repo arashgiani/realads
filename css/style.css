@@ -10,6 +10,11 @@ p {
 	line-height: 1.5em;
 }
 
+
+.navbar-light .navbar-toggler {
+    border-color: none !important;
+}
+
 .large {
 	font-size: 1.5em;
 	line-height: 1.3em;
