@@ -28,6 +28,9 @@ p {
     color: #fafafa !important;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
 
 .header {
 	width: 100%;
