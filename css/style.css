@@ -8,8 +8,8 @@ body {
 }
 
 p {
-	font-size: 1.1em;
-	line-height: 1.5em;
+	font-size: 1em;
+	line-height: 1.2em;
 }
 
 a:link, a:hover, a:visited { color: #bd484a; }
