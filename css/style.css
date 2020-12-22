@@ -10,6 +10,8 @@ p {
 	line-height: 1.5em;
 }
 
+a:link, a:hover, a:visited { color: #bd484a; }
+
 
 .navbar-light .navbar-toggler {
     border-color: transparent !important;
@@ -23,6 +25,8 @@ p {
 	background-size: contain;
 	background-position: center;
 }
+
+
 
 .large {
 	font-size: 1.5em;
