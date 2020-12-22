@@ -15,6 +15,15 @@ p {
     border-color: none !important;
 }
 
+.navbar-brand {
+	background-image: url("../images/logo.gif");
+	width: 100px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
 .large {
 	font-size: 1.5em;
 	line-height: 1.3em;
@@ -24,8 +33,10 @@ p {
 
 .hero {
 	width: 100%;
-	height: 500px;
-	background-color: red;
+	height: 600px;
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-bottom: 25px;
 }
 
