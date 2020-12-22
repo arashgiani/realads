@@ -12,7 +12,7 @@ p {
 
 
 .navbar-light .navbar-toggler {
-    border-color: none !important;
+    border-color: transparent !important;
 }
 
 .navbar-brand {
@@ -60,3 +60,6 @@ p {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
+
+
