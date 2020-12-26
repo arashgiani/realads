@@ -35,16 +35,19 @@ a:link, a:hover, a:visited { color: #bd484a; }
 	line-height: 1.3em;
 }
 
-.container { max-width: 1000px !important; }
+.container { max-width: 1200px !important; }
 
 .hero {
 	width: 100%;
 	height: 500px;
-	background-image: url("../images/hero.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 25px;
 }
+
+.one {background-image: url("../images/hero.jpg");}
+.two {background-image: url("../images/hero2.jpg");}
+.three {background-image: url("../images/hero3.jpg");}
 
 .header {
 	width: 100%;
@@ -67,5 +70,31 @@ a:link, a:hover, a:visited { color: #bd484a; }
 	margin-bottom: 20px;
 }
 
+.carousel-indicators li { margin-top: -50px; }
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
 
 
